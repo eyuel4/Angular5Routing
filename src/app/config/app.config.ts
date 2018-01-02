@@ -5,7 +5,8 @@ export const AppConfig: IAppConfig = {
         home: 'home',
         signup: 'signup',
         login: 'login',
-        error404: '404'
+        error404: '404',
+        notfound: 'not-found'
     },
     endpoints: {
 
