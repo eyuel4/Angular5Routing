@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CoursesComponent } from './courses/courses.component';
 import { AuthService } from './auth.service';
 
 
@@ -21,7 +22,8 @@ import { AuthService } from './auth.service';
     LoginComponent,
     HomeComponent,
     ErrorPageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
