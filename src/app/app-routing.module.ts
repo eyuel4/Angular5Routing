@@ -17,7 +17,7 @@ const appRoutes: Routes=[
     { path: AppConfig.routes.signup, component: SignupComponent},
     { path: AppConfig.routes.login, component: LoginComponent },
     { path: AppConfig.routes.notfound, component: PageNotFoundComponent },
-    { path: AppConfig.routes.courses, component: CoursesComponent, canActivate: [AuthGuard] },
+    { path: AppConfig.routes.courses, component: CoursesComponent, canActivate: [AuthGuard]},
     { path: '**', redirectTo: '/' + AppConfig.routes.notfound}
 ]
 
