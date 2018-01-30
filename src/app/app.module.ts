@@ -5,7 +5,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SignupComponent } from './signup/signup.component';
-import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
@@ -14,13 +13,11 @@ import { CoursesComponent } from './courses/courses.component';
 import { AuthService } from './auth.service';
 import { AuthGuard } from './auth-guard.service';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SignupComponent,
-    LoginComponent,
     HomeComponent,
     ErrorPageComponent,
     PageNotFoundComponent,
@@ -29,6 +26,7 @@ import { AuthGuard } from './auth-guard.service';
   imports: [
     BrowserModule,
     AppRoutingModule
+
   ],
   providers: [AuthService,AuthGuard],
   bootstrap: [AppComponent]
