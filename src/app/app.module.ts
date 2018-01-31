@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { SignupComponent } from './signup/signup.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
@@ -17,7 +16,6 @@ import { AuthGuard } from './auth-guard.service';
   declarations: [
     AppComponent,
     HeaderComponent,
-    SignupComponent,
     HomeComponent,
     ErrorPageComponent,
     PageNotFoundComponent,
